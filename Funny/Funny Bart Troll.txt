@@ -1,0 +1,74 @@
+GUI r
+DELAY 500
+STRING notepad.exe
+ENTER
+DELAY 1000
+STRING           , ,\ ,'\,'\ ,'\ ,\ ,
+STRING     ,  ,\/ \' `'     `   '  /|
+STRING     |\/                      |
+STRING     :                        |
+STRING     :                        |
+STRING      |                       |
+STRING      |                       |
+STRING      :               -.     _|
+STRING      :                \     `.
+STRING      |         ________:______\
+STRING      :       ,'o       / o    ,
+STRING      :       \       ,'-----./
+STRING       \_      `--.--'        )
+STRING      ,` `.              ,---'|
+STRING      : `                     |
+STRING       `,-'                   |
+STRING       /      ,---.          ,'
+STRING    ,-'            `-,------'
+STRING    `.        ,--'
+STRING      `-.____/
+STRING             \
+ENTER
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+STRING I will learn to lock my computer.
+ENTER
+ENTER
+STRING There, just like Bart Simpson.
+ENTER
+ENTER
+STRING Please remember to lock your computer when you step away from your desk.
+ENTER
+ENTER
+STRING Thank you.
+ENTER
+DELAY 100
+ALT SPACE
+STRING x
